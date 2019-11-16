@@ -1,0 +1,27 @@
+{
+  "name": "modelos_nodejs",
+  "version": "1.0.0",
+  "description": "Modelo de servidor nodejs para servir sites.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alelfreitas/modelo_nodejs"
+  },
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "compression": "^1.7.4",
+    "express": "^4.11.0",
+    "express-validator": "^5.3.0",
+    "instafeed.js": "^1.4.1",
+    "multer": "^1.2.0",
+    "mysql": "^2.17.1"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Alexandre Freitas",
+  "license": "ISC"
+}
